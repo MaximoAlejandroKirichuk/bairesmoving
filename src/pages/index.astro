@@ -1,0 +1,34 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Bienvenido a <span class="">MarMax</span>🚀</h1>
+			<p>
+				En este espacio, encontrarás respuestas a tus preguntas más apremiantes sobre <code>tecnología e Inteligencia Artificial.</code>  
+				Como dos amigos apasionados por la innovación, nos dedicamos a ofrecerte contenido valioso y perspicaz que te inspire a explorar nuevas ideas y a alcanzar tus metas en el mundo digital.
+			</p>
+			<p>
+				Aquí encontrarás respuestas a tus preguntas sobre tecnología y <code>cómo aplicarla en tu vida y negocio.</code>  
+				Acompáñanos en este viaje de descubrimiento y aprendizaje, y sé parte de la revolución digital con MarMax.
+			</p>
+			<p>Únete a nosotros y descubre el emocionante mundo de la tecnología y la innovación con <code>MarMax.</code></p>
+			
+			<p>
+				Este blog fue creado y actualizdo por
+				<a href="">Maxi Kirichuk</a>. Los articulos fueron generados con colaboración de <a href="">Mariano Rodriguez</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
